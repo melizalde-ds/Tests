@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        start();
+    </script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div id="calc">
+        <div>
+            <p id="display"></p>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><button onclick="opp(1)">+</button></td>
+                    <td><button onclick="opp(2)">-</button></td>
+                    <td><button onclick="opp(3)">*</button></td>
+                    <td><button onclick="opp(4)">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="num(6)">6</button></td>
+                    <td><button onclick="num(7)">7</button></td>
+                    <td><button onclick="num(8)">8</button></td>
+                    <td><button onclick="num(9)">9</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="num(2)">2</button></td>
+                    <td><button onclick="num(3)">3</button></td>
+                    <td><button onclick="num(4)">4</button></td>
+                    <td><button onclick="num(5)">5</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="signC()">+/-</button></td>
+                    <td><button onclick="num(0)">0</button></td>
+                    <td><button onclick="num(1)">1</button></td>
+                    <td><button onclick="point()">.</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="resultOpp()">=</button></td>
+                    <td><button onclick="clearInp()">C</button></td>
+                    <td><button onclick="clearAll()">CA</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
